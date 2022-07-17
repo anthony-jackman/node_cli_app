@@ -1,0 +1,15 @@
+{
+  "name": "first_cli_build",
+  "version": "0.0.1",
+  "description": "a command-line interface (CLI) that talks to the JSON Placeholder API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@sercoGH:anthony-jackman/node_cli_app.git"
+  },
+  "author": "anthony jackman <anthony.jackman@serco-na.com>",
+  "license": "GPL-3.0"
+}
