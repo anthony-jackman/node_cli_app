@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "a command-line interface (CLI) that talks to the JSON Placeholder API",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "jsonp": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +15,9 @@
     "url": "git@sercoGH:anthony-jackman/node_cli_app.git"
   },
   "author": "anthony jackman <anthony.jackman@serco-na.com>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "node-fetch": "^3.2.8"
+  }
 }
